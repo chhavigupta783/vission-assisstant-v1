@@ -1,0 +1,52 @@
+{
+  "name": "vision-assistant",
+  "version": "1.0.0",
+  "description": "Vision Assistant — AI-powered floating desktop assistant with Gemini",
+  "main": "main.js",
+  "author": "Vision Assistant",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx electron .",
+    "dev": "npx electron . --dev",
+    "build:win": "npx electron-builder --win",
+    "build:mac": "npx electron-builder --mac",
+    "build:linux": "npx electron-builder --linux",
+    "build": "npx electron-builder"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.visionassistant.app",
+    "productName": "Vision Assistant",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "src/assets/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "src/assets/icon.icns",
+      "category": "public.app-category.productivity"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "src/assets/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
