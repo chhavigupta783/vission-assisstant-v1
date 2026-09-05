@@ -9,6 +9,9 @@ A custom desktop AI vision tool built from scratch using **Electron**, designed 
 - **⚡ Global Shortcut Activation:** Runs discreetly in the background and listens for the `Ctrl + Shift + Space` key combination, allowing you to trigger the assistant instantly from *any* active window or application.
 - **🖥️ Native Desktop Experience:** Packaged smoothly as a standalone Windows application via `electron-builder`.
 - **💬 Real-Time Chat & Vision:** Interact with AI models seamlessly right from your desktop.
+- **🖼️ Multiple Screen Capture:** Allows you to seamlessly capture and analyze multiple screens or active display areas simultaneously, making it ideal for multi-monitor workflows and complex desktop tasks.
+- **🧠 Memory Capabilities:** Remembers project contexts, user preferences, and implementation details across sessions, while tracking ongoing development workflows.
+- **🎨 Voice & Theme Customization:** Includes voice and audio interaction features alongside a sleek dark/purple UI theme optimized for desktop environments.
 
 ---
 
