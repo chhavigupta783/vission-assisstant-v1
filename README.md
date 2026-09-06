@@ -46,6 +46,8 @@ To get Vision Assistant running smoothly on your PC, please follow these install
 2. Press **`Ctrl + Shift + Space`** from anywhere on your desktop to bring up the Vision Assistant interface.
 3. Type your prompt, ask questions, or interact with the app seamlessly!
 
+## setup_guide_video
+[https://drive.google.com/drive/folders/1Kci00sPzQalZA78Urge4v8mkXLHp4dbR?usp=sharing]
 ---
 
 ## 🤝 Contributing & Feedback
